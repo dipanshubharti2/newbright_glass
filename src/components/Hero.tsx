@@ -16,7 +16,7 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
       {/* Background Image with Optical Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_firozabad_glassware_1792663600560.jpg"
+          src="/images/hero_firozabad_glassware_1792663600560.jpg"
           alt="Handcrafted luxury crystal glassware collection from Firozabad"
           className="w-full h-full object-cover object-center scale-105"
           referrerPolicy="no-referrer"

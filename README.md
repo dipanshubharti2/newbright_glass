@@ -40,9 +40,9 @@ export const COMPANY_INFO = {
 ---
 
 ### 2. Replacing Images
-All photography assets are saved in `/src/assets/images/`.
+All photography assets are saved in `/images/`.
 To replace an image:
-1. Place your new `.jpg`, `.png`, or `.webp` file in `/src/assets/images/` (e.g., `hero_glass.jpg`).
+1. Place your new `.jpg`, `.png`, or `.webp` file in `/images/` (e.g., `hero_glass.jpg`).
 2. Update the image reference in `src/data/companyData.ts` or in the specific component:
    - **Hero Image:** Referenced in `src/components/Hero.tsx`
    - **Furnace & Artisan Image:** Referenced in `src/components/AboutSection.tsx`
@@ -65,7 +65,7 @@ In `src/data/companyData.ts`, find the `PRODUCTS` array. Each product has the fo
   packaging: "6 pcs luxury color box / Export carton",
   description: "Heavy-base cut-crystal soda-lime glass tumbler...",
   highlight: "Weighted Base · Thermal Shock Tested",
-  image: "/src/assets/images/your_image.jpg"
+  image: "/images/your_image.jpg"
 }
 ```
 The "Enquire on WhatsApp" button automatically pre-fills WhatsApp with the product name and category!

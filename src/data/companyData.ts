@@ -101,7 +101,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "6 pcs luxury color box / Export master carton 48 pcs",
     description: "Heavy-base cut-crystal soda-lime glass tumbler with light-refracting diamond facets. Ideal for fine whiskey, cocktails, and premium dining.",
     highlight: "Weighted Base · Thermal Shock Tested",
-    image: "/src/assets/images/glass_tumblers_collection_1792663600748.jpg"
+    image: "/images/glass_tumblers_collection_1792663600748.jpg"
   },
   {
     id: "classic-highball-collins",
@@ -117,7 +117,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "6 pcs printed gift pack / Master carton 72 pcs",
     description: "Sleek, transparent highball glass engineered with fire-polished rolled rims for durability in high-turnover bar and banqueting operations.",
     highlight: "Chip-Resistant Rim · Dishwasher Safe",
-    image: "/src/assets/images/hero_firozabad_glassware_1792663600560.jpg"
+    image: "/images/hero_firozabad_glassware_1792663600560.jpg"
   },
   {
     id: "lotus-crystal-dessert-bowl",
@@ -133,7 +133,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "4 pcs window pack / Master carton 48 pcs",
     description: "Classic fluted petal contour with sparkling clarity. Perfect for ice cream, puddings, fruit salads, and Indian sweets (mithai).",
     highlight: "High Optical Clarity · Food Grade",
-    image: "/src/assets/images/glass_tumblers_collection_1792663600748.jpg"
+    image: "/images/glass_tumblers_collection_1792663600748.jpg"
   },
   {
     id: "serving-salad-trifle-bowl",
@@ -149,7 +149,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "Individual foam-cushioned gift box / Master 12 pcs",
     description: "Substantial centerpiece serving bowl with thick curved wall structure and brilliant light transmission for buffets and catering.",
     highlight: "Thick Glass Wall · Drop Safe Box",
-    image: "/src/assets/images/glass_tumblers_collection_1792663600748.jpg"
+    image: "/images/glass_tumblers_collection_1792663600748.jpg"
   },
   {
     id: "elegance-dinner-plate-set",
@@ -164,7 +164,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "12 pcs cushioned set box / Export seaworthy",
     description: "Heat-tempered glassware plates with subtle geometric concentric patterns. Non-porous surface prevents stain retention and odor.",
     highlight: "100% Lead-Free · Non-Porous",
-    image: "/src/assets/images/hero_firozabad_glassware_1792663600560.jpg"
+    image: "/images/hero_firozabad_glassware_1792663600560.jpg"
   },
   {
     id: "heavy-cigar-ashtray",
@@ -179,7 +179,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "Individual satin-lined rigid presentation box",
     description: "Solid heavy-weight pressed glass ashtray with 4 deep rest grooves. Wind-resistant mass designed for luxury hotel lounges and executive desks.",
     highlight: "Solid 620g Mass · Heat Resisting",
-    image: "/src/assets/images/glass_tumblers_collection_1792663600748.jpg"
+    image: "/images/glass_tumblers_collection_1792663600748.jpg"
   },
   {
     id: "mercury-ribbed-candle-votive",
@@ -195,7 +195,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "Honeycomb grid export carton / 48 pcs",
     description: "Specialized heat-resistant glass candle holder with fluted exterior. Uniform wall thickness prevents crack formation under wax pooling.",
     highlight: "Wax-Pour Safe · Uniform Thickness",
-    image: "/src/assets/images/artisan_glass_furnace_1792663601781.jpg"
+    image: "/images/artisan_glass_furnace_1792663601781.jpg"
   },
   {
     id: "vintage-amber-votive",
@@ -211,7 +211,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "Export bulk pack with divider",
     description: "Artisan crackle glass votive reflecting warm ambient flame illumination. Popular with luxury spa brands and festive decor exporters.",
     highlight: "Hand-Furnished Crackle Effect",
-    image: "/src/assets/images/artisan_glass_furnace_1792663601781.jpg"
+    image: "/images/artisan_glass_furnace_1792663601781.jpg"
   },
   {
     id: "swing-top-water-bottle",
@@ -227,7 +227,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "12 pcs divider carton / Optional neoprene sleeve",
     description: "Airtight swing-top borosilicate glass bottle engineered for restaurant table service and eco-friendly corporate water carafes.",
     highlight: "Airtight Swing-Cap · Reusable",
-    image: "/src/assets/images/hero_firozabad_glassware_1792663600560.jpg"
+    image: "/images/hero_firozabad_glassware_1792663600560.jpg"
   },
   {
     id: "frosted-beer-coffee-mug",
@@ -243,7 +243,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "6 pcs inner box / 24 pcs carton",
     description: "Rugged ergonomic handle with reinforced base and thick walls that retain chilled beverage temperatures for sports bars and microbreweries.",
     highlight: "Chill Retention · Ergonomic Grip",
-    image: "/src/assets/images/glass_tumblers_collection_1792663600748.jpg"
+    image: "/images/glass_tumblers_collection_1792663600748.jpg"
   },
   {
     id: "corporate-whiskey-box-set",
@@ -259,7 +259,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "Custom embossed velvet-lined magnetic gift box",
     description: "Turnkey executive corporate gift set featuring 4 custom gold-rimmed glasses, laser-etched company monogram, and premium presentation box.",
     highlight: "Custom Logo Monogramming Included",
-    image: "/src/assets/images/corporate_glass_giftset_1792663602337.jpg"
+    image: "/images/corporate_glass_giftset_1792663602337.jpg"
   },
   {
     id: "festive-diwali-votive-hampers",
@@ -275,7 +275,7 @@ export const PRODUCTS: ProductItem[] = [
     packaging: "Rigid gold foil stamped corporate gift pack",
     description: "Curated festive gifting collection combining hand-blown colored votives with custom printed outer sleeves for employee and partner appreciation.",
     highlight: "Custom Branding Sleeve Available",
-    image: "/src/assets/images/corporate_glass_giftset_1792663602337.jpg"
+    image: "/images/corporate_glass_giftset_1792663602337.jpg"
   }
 ];
 

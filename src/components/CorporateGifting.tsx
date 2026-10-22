@@ -78,7 +78,7 @@ export const CorporateGifting: React.FC<CorporateGiftingProps> = ({ onQuoteClick
             {/* Right Visual Column */}
             <div className="lg:col-span-5 relative h-full min-h-[350px] lg:min-h-[500px]">
               <img
-                src="/src/assets/images/corporate_glass_giftset_1792663602337.jpg"
+                src="/images/corporate_glass_giftset_1792663602337.jpg"
                 alt="Luxury corporate glassware gift set with engraved tumblers and executive gift box"
                 className="w-full h-full object-cover object-center scale-100 hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"

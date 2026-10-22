@@ -97,7 +97,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-5 relative group">
             <div className="relative rounded-2xl overflow-hidden border border-[var(--border-subtle)] shadow-2xl glass-shimmer">
               <img
-                src="/src/assets/images/artisan_glass_furnace_1792663601781.jpg"
+                src="/images/artisan_glass_furnace_1792663601781.jpg"
                 alt="Skilled master artisan shaping molten amber glass at New Bright Glass Works furnace in Firozabad"
                 className="w-full h-[420px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
