@@ -7,6 +7,7 @@ export default defineConfig(() => {
   return {
     base: './',
     plugins: [react(), tailwindcss()],
+    base: '/newbright_glass/', // <-- Add this line with your exact repo name
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
