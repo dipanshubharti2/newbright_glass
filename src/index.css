@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #F8FAFC;
+    --bg-secondary: #FFFFFF;
+    --bg-surface: #F1F5F9;
+    --bg-card: rgba(255, 255, 255, 0.95);
+    --bg-panel: rgba(255, 255, 255, 0.92);
+
+    /* Dedicated Dark Color for Buttons (as requested) */
+    --btn-primary-bg: #0F172A;
+    --btn-primary-hover: #1E293B;
+    --btn-primary-text: #FFFFFF;
+
+    /* Tasteful Brand Color Accents: Firozabad Molten Amber & Crystal Azure */
+    --accent: #D97706; /* Amber 600 */
+    --accent-hover: #B45309; /* Amber 700 */
+    --accent-text: #FFFFFF;
+    --accent-gold: #B45309;
+    --accent-amber: #D97706;
+    --accent-cobalt: #0284C7;
+    --accent-emerald: #059669;
+
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --border-subtle: rgba(15, 23, 42, 0.08);
+    --border-card: rgba(15, 23, 42, 0.12);
+    --border-strong: rgba(217, 119, 6, 0.35);
+    --glow-color: rgba(217, 119, 6, 0.12);
+    --scrim-primary: rgba(248, 250, 252, 0.94);
+    --scrim-secondary: rgba(248, 250, 252, 0.65);
+
+    /* Typography: Outfit (Headings) & DM Sans (Body) */
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, .font-display, .font-serif {
+    font-family: var(--font-heading) !important;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Glassmorphism utility classes tuned for Light Crystal Theme */
+.glass-panel {
+  background: var(--bg-panel);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 20px 0 rgba(15, 23, 42, 0.05);
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-card);
+  box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.06);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.glass-card:hover {
+  border-color: var(--border-strong);
+  box-shadow: 0 12px 28px -4px rgba(15, 23, 42, 0.1);
+  transform: translateY(-2px);
+}
+
+.glass-pill {
+  background: rgba(15, 23, 42, 0.04);
+  border: 1px solid var(--border-subtle);
+}
+
+/* Glass shimmer light-reflection effect */
+.glass-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-shimmer::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 80%
+  );
+  transform: rotate(30deg) translateY(-100%);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.glass-shimmer:hover::after {
+  transform: rotate(30deg) translateY(100%);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}

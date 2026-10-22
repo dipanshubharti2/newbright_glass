@@ -1,0 +1,6 @@
+{
+  "name": "New Bright Glass Works",
+  "description": "Official portal for New Bright Glass Works (India) Pvt. Ltd., premier glassware manufacturer in Firozabad with 50+ years of heritage. Wholesale tumblers, tableware, candle votives, and custom corporate gifting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
