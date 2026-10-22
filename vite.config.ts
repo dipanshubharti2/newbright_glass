@@ -5,9 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './',
+    base: '/newbright_glass/',
     plugins: [react(), tailwindcss()],
-    base: '/newbright_glass/', // <-- Add this line with your exact repo name
+    // base: '/newbright_glass/', // <-- Add this line with your exact repo name
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
