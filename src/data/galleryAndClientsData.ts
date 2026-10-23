@@ -27,7 +27,7 @@ export const FACTORY_MEDIA: GalleryMediaItem[] = [
     title: "1500°C Continuous Regenerative Glass Furnace",
     category: "video",
     categoryLabel: "Factory Video Tour",
-    thumbnail: "/images/factory_furnace_tank_1792664486512.jpg",
+    thumbnail: "/newbright_glass/images/factory_furnace_tank_1792664486512.jpg",
     duration: "1:45 Min",
     description: "Experience the heart of Firozabad glassmaking. Molten quartz silica and soda ash liquify under high-pressure gas jets before feeder distribution.",
     specs: "Operating Temp: 1520°C · Daily Throughput: 28 Metric Tonnes"
@@ -38,7 +38,7 @@ export const FACTORY_MEDIA: GalleryMediaItem[] = [
     title: "40-Metre Continuous Annealing Lehr Conveyor",
     category: "lehr",
     categoryLabel: "Annealing & Lehr",
-    thumbnail: "/images/factory_lehr_conveyor_1792664487765.jpg",
+    thumbnail: "/newbright_glass/images/factory_lehr_conveyor_1792664487765.jpg",
     description: "Hundreds of freshly molded crystal tumblers traverse a gradual temperature de-escalation tunnel to eliminate internal molecular stresses.",
     specs: "Cooling Curve: 620°C down to 40°C · Zero Residual Stress"
   },
@@ -48,7 +48,7 @@ export const FACTORY_MEDIA: GalleryMediaItem[] = [
     title: "Master Artisan 24k Gold Luster Application",
     category: "artisan",
     categoryLabel: "Artisan Finishing",
-    thumbnail: "/images/factory_gold_rimming_print_1792664488214.jpg",
+    thumbnail: "/newbright_glass/images/factory_gold_rimming_print_1792664488214.jpg",
     description: "Finishing technician applying hand-drawn gold liquid luster to the fire-polished rim of a diamond-cut whiskey tumbler before secondary kiln firing.",
     specs: "24k German Liquid Gold · Dishwasher-Resistant Firing"
   },
@@ -58,7 +58,7 @@ export const FACTORY_MEDIA: GalleryMediaItem[] = [
     title: "Traditional Firozabad Hand-Blowing Artistry",
     category: "artisan",
     categoryLabel: "Artisan Finishing",
-    thumbnail: "/images/artisan_glass_furnace_1792663601781.jpg",
+    thumbnail: "/newbright_glass/images/artisan_glass_furnace_1792663601781.jpg",
     description: "Master craftsman shaping an amber glass votive using traditional blowpipe and wooden blocks, preserving 50 years of generational technique.",
     specs: "Handcrafted Custom Profiles · Generational Artisans"
   },
@@ -68,7 +68,7 @@ export const FACTORY_MEDIA: GalleryMediaItem[] = [
     title: "Seaworthy Export Corrugation & Palletizing",
     category: "packaging",
     categoryLabel: "Packaging & Logistics",
-    thumbnail: "/images/factory_packing_warehouse_1792664487892.jpg",
+    thumbnail: "/newbright_glass/images/factory_packing_warehouse_1792664487892.jpg",
     description: "Drop-tested 5-ply cartons strapped and shrink-wrapped onto standard Euro-pallets inside our Firozabad export bay for container stuffing.",
     specs: "ISTA Drop-Tested Cartons · Container Staging Bay"
   },
@@ -78,7 +78,7 @@ export const FACTORY_MEDIA: GalleryMediaItem[] = [
     title: "Semi-Automated Moulding & Fire-Polishing Line",
     category: "video",
     categoryLabel: "Factory Video Tour",
-    thumbnail: "/images/factory_lehr_conveyor_1792664487765.jpg",
+    thumbnail: "/newbright_glass/images/factory_lehr_conveyor_1792664487765.jpg",
     description: "High-speed rotary press machines delivering wall thickness consistency with high-temperature oxy-fuel flame rim polishing.",
     specs: "Press Speed: 32 pcs/min · Laser Dimensional Audit"
   }
