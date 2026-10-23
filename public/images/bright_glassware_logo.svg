@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" width="100%" height="100%" fill="none">
+  <!-- ESTD 1972 -->
+  <text x="180" y="32" text-anchor="middle" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="20" fill="currentColor" letter-spacing="2">
+    ESTD 1972
+  </text>
+
+  <!-- Framing Box for Glassware -->
+  <path d="M 24 82 L 24 136 L 336 136 L 336 82" stroke="currentColor" stroke-width="3" stroke-linecap="square" fill="none" />
+
+  <!-- BRIGHT Wordmark with 3D bevel / extrusion -->
+  <g transform="translate(42, 44)">
+    <!-- Yellow 3D extrusion/bevel shadow -->
+    <text x="3" y="47" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="52" fill="#FBBF24" letter-spacing="3">
+      BRIGHT
+    </text>
+    <!-- Vibrant Orange-Red Face -->
+    <text x="0" y="44" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="52" fill="#E63900" letter-spacing="3">
+      BRIGHT
+    </text>
+  </g>
+
+  <!-- Registered Trademark ® Symbol -->
+  <g transform="translate(328, 54)">
+    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.8" fill="none" />
+    <text x="8" y="11.5" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="800" font-size="9" fill="currentColor">
+      R
+    </text>
+  </g>
+
+  <!-- Glassware Spaced Text -->
+  <text x="180" y="126" text-anchor="middle" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="19" fill="currentColor" letter-spacing="11">
+    Glassware
+  </text>
+</svg>
